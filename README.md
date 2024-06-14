@@ -16,7 +16,7 @@
        |   |  | * 9650e35 (galin, origin/galin) See you on the flipside                              |    |
        |   |  |                                                                                      |    |
        |   |  | * 0554538 Merge branch 'galin/interests' into galin                                  |    |
-       |   |  | |\ 249f42c (galin/interests, orgin/galin/interests) reading                          |    |
+       |   |  | |\ 249f42c (galin/interests, origin/galin/interests) reading                         |    |
        |   |  | | * 0b5650d reading about smart contracts                                            |    |
        |   |  | | * e28123f spending time with my fiancée and playing chess                          |    |
        |   |  | | * 491c45a I love beer                                                              |    |
@@ -30,7 +30,7 @@
        |   |  | | * d19a96b TypeScript                                                               |    |
        |   |  | | * d3ef4ce Solidity                                                                 |    |
        |   |  | | /                                                                                  |    |
-       |   |  | * 3474fde I am a junior blockchain dev at ChangeX.io                                 |    |
+       |   |  | * 3474fde I am a blockend blockchain dev at LimeChain                                |    |
        |   |  | * a23e914 My name is Galin Ganchev                                                   |    |
        |   |  | /                                                                                    |    |
        |   |  * 0942ca8 Initial commit                                                               |    |
