@@ -1,12 +1,37 @@
-# Hi, I'm Galin Ganchev 👋
+# Galin Ganchev
 
-### Currently
+**Senior Backend & Blockchain Engineer** · 6 years in software, 4 in Web3 · TypeScript, NestJS, Solidity · ex-Coinbase contractor · Sofia, Bulgaria (remote, EU)
 
-⛓️ **Ex-Senior Blockchain Developer @ LimeChain**: contractor at **Coinbase** (Feb 2025 – Jun 2026), working directly under the Head of Tokenization on indexing, backend, and infra, and separately owned the ERC-1155 conditional-token contracts for **MetaWin's** prediction-market platform. **Open to new opportunities.**
+I build the backend and on-chain systems that move money: event-driven services that stay correct under failure, and smart contracts designed and tested against known attack classes. Open to senior backend, blockchain and smart-contract roles.
 
-### Stack
+## Selected work
 
-`TypeScript` `Solidity` `Go` `JavaScript` `NestJS` `Next.js` `React` `Foundry` `Hardhat` `ethers.js` `viem` `Kafka` `RabbitMQ` `Temporal` `PostgreSQL` `MongoDB` `Redis` `AWS` `Terraform` `Docker` `Kubernetes`
+- **Coinbase** (contractor via LimeChain, Feb 2025 – Jun 2026), working directly under the Head of Tokenization:
+  - Designed a fault-tolerant multi-contract EVM indexer: chain-reorg handling, separate historical/live streams, idempotency keys and transactional DB locks so retries never double-process, rate-limited RPC access.
+  - Built the Forward Flow Agreement fund contracts on top of MetaMorpho (ERC-4626) vaults, and closed a yield-theft vulnerability before deployment.
+  - Built a tokenized-loan marketplace backend: versioned REST APIs, JWT auth, PostgreSQL, Kubernetes, Terraform, CI/CD.
+- **Institutional credit vault on Rayls**: a Morpho Blue-style lending market with an ERC-4626 vault, NAV-priced collateral, permissionless liquidation and bad-debt socialization. Verified with stateful invariant fuzzing, 100% branch coverage and mutation testing. [Verified contract ↗](https://testnet-explorer.rayls.com/address/0x105e0d578377594b892c9d7b43d56b43a707a8c8)
+- **MetaWin prediction markets**: wrote, deployed and verified the ERC-1155 conditional-token and CTF exchange contracts, with UMA oracle resolution.
+- **[blockchain101](https://github.com/realgalinganchev/blockchain101)**: a from-scratch proof-of-work chain mirroring pre-Merge Ethereum (Keccak-256, RLP, nonce mining), TypeScript + React, deployed to Kubernetes via Terraform with GitHub Actions CI/CD.
+
+## Stack
+
+- **Backend:** TypeScript, Node.js, NestJS, PostgreSQL, MongoDB, Redis, REST, GraphQL, gRPC
+- **Event-driven:** Kafka, RabbitMQ, Temporal, BullMQ
+- **Blockchain:** Solidity, Foundry (invariant & fuzz testing), ERC-4626 / 1155 / 20, Morpho, ethers.js, viem, The Graph, Solana (Metaplex)
+- **Infra:** AWS, Terraform, Docker, Kubernetes, GitHub Actions
+- **Also:** Go, React / Next.js · Languages: Bulgarian, English, German
+
+## How I work
+
+AI-native but careful: I use coding agents heavily, and AI-assisted code ships only after tests and human review. I write things down (ADRs, runbooks, design docs), which keeps distributed teams aligned.
+
+## Contact
+
+📫 galin.ganchev11@gmail.com · [LinkedIn](https://linkedin.com/in/realgalinganchev)
+
+<details>
+<summary>The fun version 🖥️</summary>
 
 ```
  __________________________________________________________________________________________________
@@ -64,6 +89,4 @@
         `--------------------------------------------------------------------'
 ```
 
-### Reach me
-
-📫 galin.ganchev11@gmail.com · [LinkedIn](https://linkedin.com/in/realgalinganchev)
+</details>
