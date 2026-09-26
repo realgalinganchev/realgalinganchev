@@ -21,8 +21,7 @@
 |  | | * 7c6b5a4 Merge branch 'galin/interests' into galin                                      | |
 |  | | |\ 3d2e1f0 (galin/interests, origin/galin/interests) reading                             | |
 |  | | | * 9a8b7c6 reading about smart contract security                                        | |
-|  | | | * 5e4d3c2 spending time with my fiancee and playing chess                              | |
-|  | | | * 1f0e9d8 I love beer                                                                  | |
+|  | | | * 5e4d3c2 playing chess                                                                | |
 |  | | |/                                                                                       | |
 |  | | * b7a6c5d Merge branch 'galin/tech' into galin                                           | |
 |  | | |\ e4d3c2b (galin/tech, origin/galin/tech) AWS + Terraform + Docker + Kubernetes         | |
@@ -35,8 +34,8 @@
 |  | | |/                                                                                       | |
 |  | * d5c4b3a Owned ERC-1155 conditional-token contracts for MetaWin's                         | |
 |  |           prediction-market platform (separate LimeChain engagement)                       | |
-|  | * a2b1c0d Former Senior Blockchain Developer at LimeChain, embedded with a                 | |
-|  |           leading US crypto exchange -- open to new opportunities now                      | |
+|  | * a2b1c0d Former Senior Blockchain Developer at LimeChain, embedded with                   | |
+|  |           Coinbase as a contractor -- open to new opportunities now                        | |
 |  | * f0e9d8c My name is Galin Ganchev                                                         | |
 |  | /                                                                                          | |
 |  | * 0942ca8 Initial commit                                                                   | |
@@ -59,7 +58,7 @@
 
 ### Currently
 
-⛓️ **Ex-Senior Blockchain Developer @ LimeChain** — embedded with a leading US crypto exchange (indexing, backend, and infra work), and separately owned the ERC-1155 conditional-token contracts for **MetaWin's** prediction-market platform. **Open to new opportunities.**
+⛓️ **Ex-Senior Blockchain Developer @ LimeChain**: contractor at **Coinbase** (Feb 2025 – Jun 2026), working directly under the Head of Tokenization on indexing, backend, and infra, and separately owned the ERC-1155 conditional-token contracts for **MetaWin's** prediction-market platform. **Open to new opportunities.**
 
 ### Stack
 
