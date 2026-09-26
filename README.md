@@ -1,5 +1,13 @@
 # Hi, I'm Galin Ganchev 👋
 
+### Currently
+
+⛓️ **Ex-Senior Blockchain Developer @ LimeChain**: contractor at **Coinbase** (Feb 2025 – Jun 2026), working directly under the Head of Tokenization on indexing, backend, and infra, and separately owned the ERC-1155 conditional-token contracts for **MetaWin's** prediction-market platform. **Open to new opportunities.**
+
+### Stack
+
+`TypeScript` `Solidity` `Go` `JavaScript` `NestJS` `Next.js` `React` `Foundry` `Hardhat` `ethers.js` `viem` `Kafka` `RabbitMQ` `Temporal` `PostgreSQL` `MongoDB` `Redis` `AWS` `Terraform` `Docker` `Kubernetes`
+
 ```
  __________________________________________________________________________________________________
 /                                                                                                  \
@@ -55,14 +63,6 @@
         | [c]   [a][________________________][a]   [c] [<][V][>] [ 0  ][.]|_||
         `--------------------------------------------------------------------'
 ```
-
-### Currently
-
-⛓️ **Ex-Senior Blockchain Developer @ LimeChain**: contractor at **Coinbase** (Feb 2025 – Jun 2026), working directly under the Head of Tokenization on indexing, backend, and infra, and separately owned the ERC-1155 conditional-token contracts for **MetaWin's** prediction-market platform. **Open to new opportunities.**
-
-### Stack
-
-`TypeScript` `Solidity` `Go` `JavaScript` `NestJS` `Next.js` `React` `Foundry` `Hardhat` `ethers.js` `viem` `Kafka` `RabbitMQ` `PostgreSQL` `MongoDB` `Redis` `AWS` `Terraform` `Docker` `Kubernetes`
 
 ### Reach me
 
