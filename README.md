@@ -7,9 +7,9 @@ I build the backend and on-chain systems that move money: event-driven services 
 ## Selected work
 
 - **Coinbase** (contractor via LimeChain, Feb 2025 – Jun 2026), working directly under the Head of Tokenization:
-  - Designed a fault-tolerant multi-contract EVM indexer: chain-reorg handling, separate historical/live streams, idempotency keys and transactional DB locks so retries never double-process, rate-limited RPC access.
+  - Built and presented an EVM indexer proof of concept: chain-reorg handling and a dual-queue RabbitMQ topology separating historical and live event streams, with rate-limited RPC access.
   - Built the Forward Flow Agreement fund contracts on top of MetaMorpho (ERC-4626) vaults, and closed a yield-theft vulnerability before deployment.
-  - Built a tokenized-loan marketplace backend: versioned REST APIs, JWT auth, PostgreSQL, Kubernetes, Terraform, CI/CD.
+  - Built a tokenized-loan marketplace backend: versioned REST APIs with JWT auth, idempotency keys and transactional DB locks for retry-safe writes, PostgreSQL, Kubernetes, Terraform, CI/CD.
 - **Institutional credit vault on Rayls**: a Morpho Blue-style lending market with an ERC-4626 vault, NAV-priced collateral, permissionless liquidation and bad-debt socialization. Verified with stateful invariant fuzzing, 100% branch coverage and mutation testing. [Verified contract ↗](https://testnet-explorer.rayls.com/address/0x105e0d578377594b892c9d7b43d56b43a707a8c8)
 - **MetaWin prediction markets**: wrote, deployed and verified the ERC-1155 conditional-token and CTF exchange contracts, with UMA oracle resolution.
 - **[blockchain101](https://github.com/realgalinganchev/blockchain101)**: a from-scratch proof-of-work chain mirroring pre-Merge Ethereum (Keccak-256, RLP, nonce mining), TypeScript + React, deployed to Kubernetes via Terraform with GitHub Actions CI/CD.
