@@ -1,6 +1,6 @@
 # Galin Ganchev
 
-**Senior Backend & Blockchain Engineer** · 6 years in software, 4 in Web3 · TypeScript, NestJS, Solidity · AI-native · ex-Coinbase contractor · Sofia, Bulgaria (remote, EU; on-site/hybrid in Sofia)
+**Senior Backend & Blockchain Engineer** · 6 years in software, 4 in Web3 · TypeScript, NestJS, Solidity · AI-native · ex-Coinbase contractor · Sofia, Bulgaria (remote worldwide, or on-site/hybrid in Sofia)
 
 I build the backend and on-chain systems that move money: event-driven services that stay correct under failure, and smart contracts designed and tested against known attack classes. Open to senior backend, blockchain and smart-contract roles.
 
