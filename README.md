@@ -1,6 +1,6 @@
 # Galin Ganchev
 
-**Senior Backend & Blockchain Engineer** · 6 years in software, 4 in Web3 · TypeScript, NestJS, Solidity · ex-Coinbase contractor · Sofia, Bulgaria (remote, EU)
+**Senior Backend & Blockchain Engineer** · 6 years in software, 4 in Web3 · TypeScript, NestJS, Solidity · AI-native · ex-Coinbase contractor · Sofia, Bulgaria (remote, EU; on-site/hybrid in Sofia)
 
 I build the backend and on-chain systems that move money: event-driven services that stay correct under failure, and smart contracts designed and tested against known attack classes. Open to senior backend, blockchain and smart-contract roles.
 
@@ -12,7 +12,7 @@ I build the backend and on-chain systems that move money: event-driven services 
   - Built a tokenized-loan marketplace backend: versioned REST APIs with JWT auth, idempotency keys and transactional DB locks for retry-safe writes, PostgreSQL, Kubernetes, Terraform, CI/CD.
 - **Institutional credit vault on Rayls**: a Morpho Blue-style lending market with an ERC-4626 vault, NAV-priced collateral, permissionless liquidation and bad-debt socialization. Verified with stateful invariant fuzzing, 100% branch coverage and mutation testing. [Verified contract ↗](https://testnet-explorer.rayls.com/address/0x105e0d578377594b892c9d7b43d56b43a707a8c8)
 - **MetaWin prediction markets**: wrote, deployed and verified the ERC-1155 conditional-token and CTF exchange contracts, with UMA oracle resolution.
-- **[blockchain101](https://github.com/realgalinganchev/blockchain101)** · **[live demo ↗](https://blockchain101.founderexchange.co)**: a from-scratch proof-of-work chain mirroring pre-Merge Ethereum (Keccak-256, RLP, nonce mining), TypeScript + React. Live on AWS: EC2 provisioned with Terraform, automatic HTTPS, GitHub Actions deploying through OIDC and SSM (no SSH, no stored keys), and API hardening for public traffic.
+- **[blockchain101](https://github.com/realgalinganchev/blockchain101)** · **[live demo ↗](https://blockchain101.founderexchange.co)**: a from-scratch proof-of-work chain mirroring pre-Merge Ethereum (Keccak-256, RLP, nonce mining), TypeScript, Node.js and React. Live on AWS: EC2 provisioned with Terraform, automatic HTTPS, GitHub Actions deploying through OIDC and SSM (no SSH, no stored keys), and API hardening for public traffic. Built with AI coding agents.
 
 ## Stack
 
@@ -20,11 +20,12 @@ I build the backend and on-chain systems that move money: event-driven services 
 - **Event-driven:** Kafka, RabbitMQ, Temporal, BullMQ
 - **Blockchain:** Solidity, Foundry (invariant & fuzz testing), ERC-4626 / 1155 / 20, Morpho, ethers.js, viem, The Graph, Solana (Metaplex)
 - **Infra:** AWS, Terraform, Docker, Kubernetes, GitHub Actions
+- **AI tooling:** Claude Code, Codex, Gemini, OpenRouter, multi-agent loops, AI code review
 - **Also:** Go, React / Next.js · Languages: Bulgarian, English, German
 
 ## How I work
 
-AI-native but careful: I use coding agents heavily, and AI-assisted code ships only after tests and human review. I write things down (ADRs, runbooks, design docs), which keeps distributed teams aligned.
+AI-native but careful: I build with coding agents every day (Claude Code, Codex) and run multi-agent loops on larger tasks, and AI-assisted code ships only after tests and human review. I completed Snyk's AI Security Training (secure AI-assisted coding, AI red teaming). I write things down (ADRs, runbooks, design docs), which keeps distributed teams aligned.
 
 ## Contact
 
@@ -58,6 +59,7 @@ AI-native but careful: I use coding agents heavily, and AI-assisted code ships o
 |  | | |/                                                                                       | |
 |  | | * b7a6c5d Merge branch 'galin/tech' into galin                                           | |
 |  | | |\ e4d3c2b (galin/tech, origin/galin/tech) AWS + Terraform + Docker + Kubernetes         | |
+|  | | | * 0b1c2d3 Claude Code + Codex + multi-agent loops                                      | |
 |  | | | * c1b0a9f Kafka + RabbitMQ                                                             | |
 |  | | | * a8f7e6d NestJS + Next.js + React                                                     | |
 |  | | | * 9d8c7b6 Foundry / Anvil + Hardhat + ethers.js + viem                                 | |
