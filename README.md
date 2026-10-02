@@ -1,14 +1,19 @@
 # Galin Ganchev
 
-**Senior Backend & Blockchain Engineer** · 6 years in software, 4 in Web3 · TypeScript, NestJS, Solidity · AI-native · ex-Coinbase contractor · Sofia, Bulgaria (remote worldwide, or on-site/hybrid in Sofia)
+**Full-Stack AI Engineer · Blockchain & Fintech** · 6 years in software, 4 in Web3 · TypeScript, NestJS, Solidity · LLM products & coding agents · ex-Coinbase contractor · Sofia, Bulgaria (remote worldwide, or on-site/hybrid in Sofia)
 
-I build the backend and on-chain systems that move money: event-driven services that stay correct under failure, and smart contracts designed and tested against known attack classes. Open to senior backend, blockchain and smart-contract roles.
+I build systems that move money and the AI that works on them: event-driven services that stay correct under failure, smart contracts designed and tested against known attack classes, and LLM features backed by evals and guardrails. Open to senior full-stack AI, backend, blockchain and smart-contract security roles.
 
 ## Selected work
 
+- **[LimeForge](https://limechain.tech/limeforge)** (LimeChain's client-facing AI platform that turns Web3 ideas into build-ready specs): contributed during the research phase.
+  - Researched GraphRAG and LightRAG for the Web3 knowledge layer and documented the retrieval, guardrail and eval design.
+  - Contributed to the eval and regression harness, IP-protection guardrails (output scanner, probing detection) and prompt caching, which cut the cost per request ~10×.
+- **[preaudit](https://github.com/realgalinganchev/preaudit)** (open source): a pre-audit pipeline for Foundry projects that runs Slither, fuzz and invariant tests, Medusa, Halmos and Gambit and merges them into one report. On Cyfrin's PuppyRaffle benchmark, with a purpose-written harness, it finds all nine known bugs. Claude Code GitHub Actions with Pashov's AI-audit skills review every PR.
 - **Coinbase** (contractor via LimeChain, Feb 2025 – Jun 2026), working directly under the Head of Tokenization:
   - Built and presented an EVM indexer proof of concept: chain-reorg handling and a dual-queue RabbitMQ topology separating historical and live event streams, with rate-limited RPC access.
   - Built the Forward Flow Agreement fund contracts on top of MetaMorpho (ERC-4626) vaults, and closed a yield-theft vulnerability before deployment.
+  - Delivered full-stack features end to end for tokenized-securities tooling (reconciliation history, token-holder lists): gRPC backend, frontend views, released through multi-round review.
   - Built a tokenized-loan marketplace backend: versioned REST APIs with JWT auth, idempotency keys and transactional DB locks for retry-safe writes, PostgreSQL, Kubernetes, Terraform, CI/CD.
 - **Institutional credit vault on Rayls**: a Morpho Blue-style lending market with an ERC-4626 vault, NAV-priced collateral, permissionless liquidation and bad-debt socialization. Verified with stateful invariant fuzzing, 100% branch coverage and mutation testing. [Verified contract ↗](https://testnet-explorer.rayls.com/address/0x105e0d578377594b892c9d7b43d56b43a707a8c8)
 - **MetaWin prediction markets**: wrote, deployed and verified the ERC-1155 conditional-token and CTF exchange contracts, with UMA oracle resolution.
@@ -20,12 +25,14 @@ I build the backend and on-chain systems that move money: event-driven services 
 - **Event-driven:** Kafka, RabbitMQ, Temporal, BullMQ
 - **Blockchain:** Solidity, Foundry (invariant & fuzz testing), ERC-4626 / 1155 / 20, Morpho, ethers.js, viem, The Graph, Solana (Metaplex)
 - **Infra:** AWS, Terraform, Docker, Kubernetes, GitHub Actions
-- **AI tooling:** Claude Code, Codex, Gemini, OpenRouter, multi-agent loops, AI code review
+- **AI engineering:** RAG / GraphRAG, eval & regression harnesses, guardrails, prompt caching
+- **AI tooling:** Claude Code (custom skills, hooks, subagents), MCP servers, Codex, Gemini, OpenRouter, AI code review
+- **Security:** smart contract audits & security research, Slither, Halmos, Medusa / Echidna, Gambit mutation testing
 - **Also:** Go, React / Next.js · Languages: Bulgarian, English, German
 
 ## How I work
 
-AI-native but careful: I build with coding agents every day (Claude Code, Codex) and run multi-agent loops on larger tasks, and AI-assisted code ships only after tests and human review. I completed Snyk's AI Security Training (secure AI-assisted coding, AI red teaming). I write things down (ADRs, runbooks, design docs), which keeps distributed teams aligned.
+Agent-first but careful: I direct Claude Code from the terminal every day with my own skills, hooks, MCP servers and subagents, plan before implementing, and let specs and tests decide what ships. An AI review pass runs on every PR, and AI-assisted code ships only after tests and human review. I completed Snyk's AI Security Training (secure AI-assisted coding, AI red teaming). I write things down (ADRs, runbooks, design docs), which keeps distributed teams aligned.
 
 ## Contact
 
@@ -59,7 +66,8 @@ AI-native but careful: I build with coding agents every day (Claude Code, Codex)
 |  | | |/                                                                                       | |
 |  | | * b7a6c5d Merge branch 'galin/tech' into galin                                           | |
 |  | | |\ e4d3c2b (galin/tech, origin/galin/tech) AWS + Terraform + Docker + Kubernetes         | |
-|  | | | * 0b1c2d3 Claude Code + Codex + multi-agent loops                                      | |
+|  | | | * 0b1c2d3 Claude Code + MCP + skills + hooks + subagents                               | |
+|  | | | * 1d2e3f4 GraphRAG research for LimeForge                                              | |
 |  | | | * c1b0a9f Kafka + RabbitMQ                                                             | |
 |  | | | * a8f7e6d NestJS + Next.js + React                                                     | |
 |  | | | * 9d8c7b6 Foundry / Anvil + Hardhat + ethers.js + viem                                 | |
